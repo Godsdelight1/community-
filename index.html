@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commumity subscription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Karla", sans-serif;
+    }
+    .container {
+      background-color: hsl(204, 43%, 93%);
+      padding: 50px 20px;
+    }
+
+    .divs_parents {
+      background-color: white;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .top_div {
+      padding: 20px;
+    }
+    .top_div h2 {
+      color: hsl(179, 62%, 43%);
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .top_div p {
+      color: hsl(218, 22%, 67%);
+      font-size: 16px;
+    }
+
+    .words {
+      font-size: 16px;
+      color: hsl(71, 73%, 54%) !important;
+      margin-bottom: 10px;
+    }
+
+    .hood {
+      padding: 30px;
+      background-color: hsl(179, 80%, 21%);
+      color: white;
+      width: 50%;
+    }
+
+    .hood h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .hood h6 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hood h6 span {
+      font-size: 15px;
+      text-decoration: line-through;
+    }
+
+    .hood p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .hood button {
+      font-size: 15px;
+      width: 100%;
+      padding: 20px;
+      background-color: yellowgreen;
+      border-radius: 0;
+      margin-bottom: 23px;
+      color: white;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .monthy {
+        display: flex;
+      }
+
+      .listed {
+        color: white;
+        background-color: aqua;
+        padding: 30px;
+        width: 50%;
+        
+      }
+
+      .listed h2 {
+        font-size: 30px;
+        margin-bottom: 60px;
+      }
+      .listed ul{
+        font-size: 20px;
+        list-style-type: none;
+      }
+      
+
+   
+     
+    }
+  </style>
+
+  <body>
+    <!-- FIRST BOX -->
+    <section class="container">
+      <section class="divs_parents">
+        <div class="top_div">
+          <h2>Join our community</h2>
+
+          <p class="words">30 days hassle-free money back guarratee</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            error praesentium incidunt magni asperiores eum quidem natus omnis
+            dolor, quos dolore nobis aut placeat ea sunt rem ratione unde
+            libero.
+          </p>
+        </div>
+
+        <section class="monthy">
+          <div class="hood child">
+            <h3>Monthy subscription</h3>
+            <h6>$29 <span>per month</span></h6>
+            <p>Full access for less than $1 a day</p>
+            <button>Sign Up</button>
+          </div>
+
+          <div class="listed child">
+            <h2>Why us</h2>
+
+            <ul>
+              <li>tickets perservation</li>
+              <li>Peer & expert code review</li>
+              <li>Coding exercises</li>
+              <li>Flashcard desks</li>
+              <li>Community forums</li>
+              <li>Acess to our GitHub repos</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
